@@ -24,7 +24,8 @@ body {
 /* PAGE */
 
 .hero,
-.info-container {
+.info-container,
+.footer {
   background-color: var(--hero-and-footer);
   color: var(--hero-link-and-secondary);
   letter-spacing: 1px;
@@ -59,7 +60,7 @@ a {
 
 .info-container {
   display: flex;
-  padding: 10rem 20rem;
+  padding: 5rem 20rem 10rem;
 }
 
 .main-info {
@@ -91,12 +92,20 @@ a {
 
 .btn {
   width: 100px;
-  height: 30px;
+  height: 35px;
   border-radius: 5px;
   border: none;
   background-color: var(--btn-color);
   color: #fff;
   font-size: 18px;
+  transition: 0.3s ease-out;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: var(--btn-color);
+  transition: 0.3s ease-out;
+  cursor: pointer;
 }
 
 /* IMAGES-CONTAINER */
@@ -152,3 +161,49 @@ blockquote {
 }
 
 /* REGISTER BUTTON */
+
+.register-container {
+  padding: 10rem 20rem;
+}
+
+.register-sign {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--btn-color);
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.border {
+  border: 2px solid #fff;
+}
+
+.join {
+  color: var(--header-logo);
+  font-size: 24px;
+}
+
+.join-text {
+  color: var(--hero-link-and-secondary);
+  font-size: 16px;
+}
+
+/* FOOTER */
+
+.creator {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+.link-author {
+  margin: 5px;
+  transition: 0.3s ease-out;
+}
+
+.link-author:hover {
+  color: var(--btn-color);
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
