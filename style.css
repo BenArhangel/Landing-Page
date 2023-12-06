@@ -65,6 +65,9 @@ a {
 
 .main-info {
   margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .main-image {
@@ -73,7 +76,7 @@ a {
 
 .cat-image {
   width: 600px;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
 }
 
