@@ -104,6 +104,7 @@ a {
 .images-container {
   display: flex;
   justify-content: center;
+  padding: 0 10rem 10rem;
 }
 
 .image-container p {
@@ -116,6 +117,7 @@ a {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
+  margin: 40px;
 }
 
 .cat-meme-image {
@@ -126,3 +128,27 @@ a {
   border-radius: 10px;
   margin: 0 20px;
 }
+
+/* QUOTE SECTION */
+
+.quote-container {
+  background-color: var(--quote-bg);
+  padding: 10rem 20rem;
+  text-align: justify;
+}
+
+blockquote {
+  color: var(--quote-text);
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.author {
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* REGISTER BUTTON */
