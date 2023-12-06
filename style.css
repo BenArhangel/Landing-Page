@@ -1,0 +1,22 @@
+:root {
+  --hero-and-footer: #1f2937;
+  --hero-main-text: #f9faf8;
+  --hero-link-and-secondary: #e5e7eb;
+  --header-logo: #f9faf8;
+
+  --btn-color: #3882f6;
+  --heared-text: #1f2937;
+
+  --quote-bg: #e5e7eb;
+  --quote-text: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
