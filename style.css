@@ -26,13 +26,15 @@ body {
 .hero,
 .info-container {
   background-color: var(--hero-and-footer);
-  color: var(--hero-main-text);
+  color: var(--hero-link-and-secondary);
+  letter-spacing: 1px;
 }
 
 .hero {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 20px;
 }
 
 .hero .logo {
@@ -51,4 +53,61 @@ a {
   color: var(--hero-link-and-secondary);
   font-size: 18px;
   margin: 10px;
+}
+
+/* MAIN */
+
+.info-container {
+  display: flex;
+  padding: 10rem 20rem;
+}
+
+.main-info {
+  margin-right: 20px;
+}
+
+.main-image {
+  margin-left: 20px;
+}
+
+.cat-image {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.light-header {
+  margin: 0px;
+  color: var(--hero-main-text);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.main-paragraph {
+  font-weight: 18px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--btn-color);
+  color: #fff;
+  font-size: 18px;
+}
+
+/* IMAGES-CONTAINER */
+
+.images-container {
+  display: flex;
+}
+
+.dark-header {
+  color: var(--heared-text);
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
 }
