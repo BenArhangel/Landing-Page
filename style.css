@@ -20,3 +20,35 @@ body {
   padding: 0px;
   font-family: "Roboto", sans-serif;
 }
+
+/* PAGE */
+
+.hero,
+.info-container {
+  background-color: var(--hero-and-footer);
+  color: var(--hero-main-text);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero .logo {
+  width: 70px;
+  height: 60px;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: var(--hero-link-and-secondary);
+  font-size: 18px;
+  margin: 10px;
+}
